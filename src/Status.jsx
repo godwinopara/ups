@@ -7,6 +7,8 @@ export default function Status() {
 					<div className="bg-green-700 rounded-[100%] h-4 w-4"></div>
 					<div className="flex flex-col justify-center">
 						<div className="text-center">|</div>
+						<div className="text-center">|</div>
+						<div className="text-center">|</div>
 					</div>
 				</div>
 				<div>
@@ -23,6 +25,8 @@ export default function Status() {
 					<div className="bg-yellow-500 rounded-[100%] h-4 w-4"></div>
 					<div className="flex flex-col justify-center">
 						<div className="text-center">|</div>
+						<div className="text-center">|</div>
+						<div className="text-center">|</div>
 					</div>
 				</div>
 				<div>
@@ -37,6 +41,8 @@ export default function Status() {
 					<div className="bg-yellow-500 rounded-[100%] h-4 w-4"></div>
 					<div className="flex flex-col justify-center">
 						<div className="text-center">|</div>
+						<div className="text-center">|</div>
+						<div className="text-center">|</div>
 					</div>
 				</div>
 				<div>
@@ -50,6 +56,8 @@ export default function Status() {
 				<div>
 					<div className="bg-yellow-500 rounded-[100%] h-4 w-4"></div>
 					<div className="flex flex-col justify-center">
+						<div className="text-center">|</div>
+						<div className="text-center">|</div>
 						<div className="text-center">|</div>
 					</div>
 				</div>
