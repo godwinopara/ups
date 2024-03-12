@@ -16,7 +16,7 @@ function App() {
 				<strong>#FF4SCR99273</strong>
 			</div>
 			<div className="text-red-700 text-center px-8">
-				This Link is Confidential and for security purpose the link will expire in 30mins
+				This Link is Confidential and for security purpose the link will expire in 12hours
 			</div>
 			<section>
 				<UserInfo />
