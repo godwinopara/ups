@@ -34,7 +34,24 @@ export default function Status() {
 					<span className="text-gray-600 block">Shipment Departed at 18/03/2024</span>
 				</div>
 			</div>
-			<div className="flex gap-x-5 mb-3">
+			<div className="flex gap-x-5 mb-5">
+				<div className="relative mb-1">
+					<div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+						<IoCheckmark />
+					</div>
+					<div className="h-full w-[3px] abosolute inset-0 bg-green-700 mx-auto"></div>
+				</div>
+				<div>
+					<h1 className="font-medium">Arrived</h1>
+					<span className="text-gray-600 block">Arrived Sydney at 23/03/2024</span>
+					<span className="text-gray-600 block">
+						Package received for processing by UPS Mail Innovations
+					</span>
+					<span className="text-gray-600 block">Package processed by UPS Mail Innovations</span>
+					<span className="text-gray-600 block">Awaiting Approval for Delivery to Brisbane</span>
+				</div>
+			</div>
+			{/* <div className="flex gap-x-5 mb-3">
 				<div>
 					<div className="border-2 text-lg border-green-700 rounded-[100%] h-6 w-6 text-green-700 font-medium flex items-center justify-center">
 						<MdOutlineKeyboardArrowDown />
@@ -52,20 +69,14 @@ export default function Status() {
 					<span className="text-gray-600">Shipment Expected Depature: 26/03/2024</span>
 					<p className="text-gray-600">Awaiting arrival at Sydney</p>
 				</div>
-			</div>
+			</div> */}
 			<div className="flex gap-x-5 mb-5">
 				<div>
 					<div className="bg-yellow-500 rounded-[100%] h-6 w-6 text-green-700 font-medium flex items-center justify-center"></div>
-					<div className="flex flex-col justify-center">
-						<div className="text-center">|</div>
-						<div className="text-center">|</div>
-						<div className="text-center">|</div>
-					</div>
 				</div>
 				<div>
 					<h1>Pending</h1>
-					<span className="text-gray-600">Shipment Expected Arrival: 28/03/2024</span>
-					<p className="text-gray-600">Awaiting arrival at Sydney</p>
+					<p className="text-gray-600">Awaiting arrival at Brisbane</p>
 				</div>
 			</div>
 		</section>
