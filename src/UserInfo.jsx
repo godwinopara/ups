@@ -7,24 +7,24 @@ export default function UserInfo() {
 					<div>
 						<div className="mb-3">
 							<h2 className="mb-1 font-semibold">Name</h2>
-							<p>Major General David S. Baldwin</p>
+							<p>Mr Samuel Heavner</p>
 						</div>
 						<div className="mb-3">
 							<h2 className="mb-1 font-semibold">Address</h2>
-							<p> 3455 Senn Rd. San Diego, CA, United States </p>
+							<p> 24  Westgate Road, Leeds LS2 7LY</p>
 						</div>
 						<div className="mb-3">
 							<h2 className="mb-1 font-semibold">Email</h2>
-							<p>davidbaldwin22@gmail.com</p>
+							<p>samuelheavner11@gmail.com</p>
 						</div>
 						<div className="xl:flex xl:justify-between items-center gap-x-10">
 							<div className="mb-3">
 								<h2 className="mb-1 font-semibold">Country</h2>
-								<p>United States</p>
+								<p>United Kingdom</p>
 							</div>
 							<div className="mb-3">
-								<h2 className="mb-1 font-semibold">Phone Number</h2>
-								<p>+13104211377</p>
+								{/* <h2 className="mb-1 font-semibold">Phone Number</h2>
+								<p>+13104211377</p> */}
 							</div>
 						</div>
 					</div>
@@ -34,11 +34,11 @@ export default function UserInfo() {
 					<div>
 						<div className="mb-3">
 							<h2 className="mb-1 font-semibold">Receiver's Name</h2>
-							<p>Marcia Elaine Russell</p>
+							<p>Louise Harris</p>
 						</div>
 						<div className="mb-3">
 							<h2 className="mb-1 font-semibold">Receiver's Address</h2>
-							<p>Unit 32, 11 Tripcony Place Wakerley Queensland</p>
+							<p>12 Second Street Millfield North South Wales 2325</p>
 						</div>
 						<div className="lg:flex lg:justify-between items-center">
 							<div className="mb-3">
@@ -47,18 +47,18 @@ export default function UserInfo() {
 							</div>
 
 							<div className="mb-3">
-								<h2 className="mb-1 font-semibold">Phone Number</h2>
-								<p>+61402073377</p>
+								{/* <h2 className="mb-1 font-semibold">Phone Number</h2>
+								<p>+61402073377</p> */}
 							</div>
 						</div>
 						<div className="lg:flex lg:justify-between items-center">
 							<div className="mb-3">
 								<h2 className="mb-1 font-semibold">Email </h2>
-								<p>Merussell54@gmail.com</p>
+								<p>lmccaig004@gmail.com</p>
 							</div>
 							<div className="mb-3">
-								<h2 className="mb-1 font-semibold">Postal Code </h2>
-								<p>4154</p>
+								{/* <h2 className="mb-1 font-semibold">Postal Code </h2>
+								<p>4154</p> */}
 							</div>
 						</div>
 					</div>
