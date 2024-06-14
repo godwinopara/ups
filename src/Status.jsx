@@ -63,6 +63,59 @@ export default function Status() {
 				<div>
 					<h1 className="font-bold">In Transit</h1>
 					<span className="text-gray-900 block font-medium">Departed</span>
+					<span className="text-gray-600 block">June 14, 2024, 10pm</span>
+					<span className="text-gray-600 block">Hanoi, Vietnam</span>
+				</div>
+			</div>
+			<div className="flex gap-x-5 mb-3">
+				<div className="relative mb-1">
+					<div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+						<IoCheckmark />
+					</div>
+					<div className="flex flex-col items-center justify-center mt-2 text-green-800">
+					<IoEllipsisVerticalOutline />
+					<IoEllipsisVerticalOutline />
+					<IoEllipsisVerticalOutline />
+					</div>
+				</div>
+				<div>
+					<h1 className="font-bold">Custom Clearance Complete</h1>
+					<span className="text-gray-900 block font-medium">Inbound Custom Clearance</span>
+					<span className="text-gray-600 block">June 14, 2024, 5pm</span>
+					<span className="text-gray-600 block">Hanoi, Vietnam</span>
+				</div>
+			</div>
+			
+			<div className="flex gap-x-5 mb-3">
+				<div className="relative mb-1">
+					<div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+						<IoCheckmark />
+					</div>
+					<div className="flex flex-col items-center justify-center mt-2 text-green-800">
+					<IoEllipsisVerticalOutline />
+					<IoEllipsisVerticalOutline />
+					<IoEllipsisVerticalOutline />
+					</div>
+				</div>
+				<div>
+					<h1 className="font-bold">Arrived</h1>
+					<span className="text-gray-600 block">June 14, 2024, 2:45am</span>
+					<span className="text-gray-600 block">Hanoi, Vietnam</span>
+				</div>
+			</div>
+			<div className="flex gap-x-5 mb-3">
+				<div className="relative mb-1">
+					<div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+						<IoCheckmark />
+					</div>
+					<div className="flex flex-col items-center justify-center mt-2 text-green-800">
+					<IoEllipsisVerticalOutline />
+					<IoEllipsisVerticalOutline />
+					<IoEllipsisVerticalOutline />
+					</div>
+				</div>
+				<div>
+					<h1 className="font-bold">Departed</h1>
 					<span className="text-gray-600 block">June 13, 2024, 9:45pm</span>
 					<span className="text-gray-600 block">Beijing, China</span>
 				</div>
@@ -81,6 +134,7 @@ export default function Status() {
 				</div>
 				<div>
 					<h1 className="font-bold">Custom Clearance Complete</h1>
+					<span className="text-gray-900 block font-medium">Inbound Custom Clearance</span>
 					<span className="text-gray-600 block">June 13, 2024, 9pm</span>
 					<span className="text-gray-600 block">Beijing, China</span>
 				</div>
@@ -99,7 +153,6 @@ export default function Status() {
 				</div>
 				<div>
 					<h1 className="font-bold">Arrived</h1>
-					<span className="text-gray-900 block font-medium">Inbound Custom Clearance</span>
 					<span className="text-gray-600 block">June 13, 2024, 7:40pm</span>
 					<span className="text-gray-600 block">Beijing, China</span>
 				</div>
@@ -134,11 +187,12 @@ export default function Status() {
 				</div>
 				<div>
 					<h1 className="font-bold">Custom Clearance Complete</h1>
+					<span className="text-gray-900 block font-medium">Inbound Custom Clearance</span>
 					<span className="text-gray-600 block">June 12, 2024, 6pm</span>
 					<span className="text-gray-600 block">Leeds United Kingdom</span>
 				</div>
 			</div>
-			<div className="flex gap-x-5 mb-3">
+			{/* <div className="flex gap-x-5 mb-3">
 				<div className="relative mb-1">
 					<div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
 						<IoCheckmark />
@@ -154,8 +208,8 @@ export default function Status() {
 					<span className="text-gray-600 block">June 12, 2024, 4pm</span>
 					<span className="text-gray-600 block">Leeds United Kingdom</span>
 				</div>
-			</div>
-			<div className="flex gap-x-5 mb-3">
+			</div> */}
+			{/* <div className="flex gap-x-5 mb-3">
 				<div className="relative mb-1">
 					<div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
 						<IoCheckmark />
@@ -171,7 +225,7 @@ export default function Status() {
 					<span className="text-gray-600 block">June 12, 2024, 2:45am</span>
 					<span className="text-gray-600 block">Leeds United Kingdom</span>
 				</div>
-			</div>
+			</div> */}
 			
 			<div className="flex gap-x-5 mb-3">
 				<div className="relative mb-1">
@@ -186,6 +240,7 @@ export default function Status() {
 				</div>
 				<div>
 					<h1 className="font-bold">Sorting and Processed Through USPS Facility</h1>
+					<span className="text-gray-900 block font-medium">Label Created</span>
 					<span className="text-gray-600 block">June 12, 2024, 2pm</span>
 					<span className="text-gray-600 block">Leeds United Kingdom</span>
 				</div>
