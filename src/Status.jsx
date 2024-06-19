@@ -63,7 +63,7 @@ export default function Status() {
         <div>
           <h1 className="font-bold">In Transit</h1>
           <span className="text-gray-900 block font-medium">Departed</span>
-          <span className="text-gray-600 block">June 19, 2024, 8:30pm</span>
+          <span className="text-gray-600 block">June 18, 2024, 8:30pm</span>
           <span className="text-gray-600 block">Kuala Lumpur, Malaysia</span>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default function Status() {
         <div>
           <h1 className="font-bold">Custom Clearance Complete</h1>
           <span className="text-gray-900 block font-medium">Inbound Custom Clearance</span>
-          <span className="text-gray-600 block">June 19, 2024, 5pm</span>
+          <span className="text-gray-600 block">June 18, 2024, 5pm</span>
           <span className="text-gray-600 block">Kuala Lumpur, Malaysia</span>
         </div>
       </div>
@@ -98,7 +98,7 @@ export default function Status() {
         </div>
         <div>
           <h1 className="font-bold">Arrived</h1>
-          <span className="text-gray-600 block">June 18, 2024, 11:45am</span>
+          <span className="text-gray-600 block">June 17, 2024, 11:45am</span>
           <span className="text-gray-600 block">Kuala Lumpur, Malaysia</span>
         </div>
       </div>
