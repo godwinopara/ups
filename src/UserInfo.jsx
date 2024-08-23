@@ -70,14 +70,14 @@ export default function UserInfo() {
       <div className="my-10 grid lg:grid-cols-2 bg-gray-200 px-6 py-10 lg:p-10 border-l-4 border-yellow-500">
         <div>
           <div className="mb-5">
-            <h4 className="font-semibold">Tracking Number:</h4>
+            <h4 className="font-semibold">Log Number:</h4>
             <h3 className="font-bold text-lg lg:text-4xl">4204575092124903627191046</h3>
           </div>
           <div className="mb-8">
             <h2 className="font-semibold text-2xl mb-3">Expected Delivery by</h2>
             <div className="flex items-center gap-x-10">
               <div className="border-r border-gray-400 pr-6">
-                <h3 className="font-bold">MONDAY</h3>
+                <h3 className="font-bold">WEDNESDAY</h3>
                 <div className="flex gap-x-3">
                   <span className="block font-bold text-5xl">28</span>
                   <div className="text-sm">

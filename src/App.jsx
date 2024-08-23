@@ -28,7 +28,7 @@ function App() {
           </div>
         </section>
 
-        <ShippingDetails />
+        {/* <ShippingDetails /> */}
         <Status />
       </section>
       {/* <div className="bg-[#FEA918] w-[100vw] h-[100vh] flex items-center justify-center" >
