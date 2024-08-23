@@ -1,4 +1,4 @@
-import { IoCheckmark } from "react-icons/io5";
+// import { IoCheckmark } from "react-icons/io5";
 
 export default function UserInfo() {
   return (
@@ -9,20 +9,20 @@ export default function UserInfo() {
           <div>
             <div className="mb-3">
               <h2 className="mb-1 font-semibold">Name</h2>
-              <p>Mr Samuel Heavner</p>
+              <p>Col. Stephen S. Trotter</p>
             </div>
             <div className="mb-3">
               <h2 className="mb-1 font-semibold">Address</h2>
-              <p> 24 Westgate Road, Leeds LS2 7LY</p>
+              <p> 238 California Ave. Fort Hunter Liggett, CA 93928</p>
             </div>
-            <div className="mb-3">
+            {/* <div className="mb-3">
               <h2 className="mb-1 font-semibold">Email</h2>
               <p>samuelheavner11@gmail.com</p>
-            </div>
+            </div> */}
             <div className="xl:flex xl:justify-between items-center gap-x-10">
               <div className="mb-3">
                 <h2 className="mb-1 font-semibold">Country</h2>
-                <p>United Kingdom</p>
+                <p>United States Of America</p>
               </div>
               <div className="mb-3">
                 {/* <h2 className="mb-1 font-semibold">Phone Number</h2>
@@ -36,11 +36,11 @@ export default function UserInfo() {
           <div>
             <div className="mb-3">
               <h2 className="mb-1 font-semibold">Receiver's Name</h2>
-              <p>Louise Harris</p>
+              <p>Helen Sim</p>
             </div>
             <div className="mb-3">
               <h2 className="mb-1 font-semibold">Receiver's Address</h2>
-              <p>12 Second Street Millfield North South Wales 2325</p>
+              <p>2/9-13 Vermont St Sutherland, NSW 2232</p>
             </div>
             <div className="lg:flex lg:justify-between items-center">
               <div className="mb-3">
@@ -49,32 +49,54 @@ export default function UserInfo() {
               </div>
 
               <div className="mb-3">
-                {/* <h2 className="mb-1 font-semibold">Phone Number</h2>
-								<p>+61402073377</p> */}
+                <h2 className="mb-1 font-semibold">Phone Number</h2>
+                <p>+610451515115</p>
               </div>
             </div>
             <div className="lg:flex lg:justify-between items-center">
               <div className="mb-3">
                 <h2 className="mb-1 font-semibold">Email </h2>
-                <p>lmccaig004@gmail.com</p>
+                <p>helensim39@gmail.com</p>
               </div>
               <div className="mb-3">
-                {/* <h2 className="mb-1 font-semibold">Postal Code </h2>
-								<p>4154</p> */}
+                <h2 className="mb-1 font-semibold">Postal Code </h2>
+                <p>2232</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="my-10">
-        <div className="flex items-center gap-x-2 mb-3">
-          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
-            <IoCheckmark />
+      <div className="my-10 grid lg:grid-cols-2 bg-gray-200 px-6 py-10 lg:p-10 border-l-4 border-yellow-500">
+        <div>
+          <div className="mb-5">
+            <h4 className="font-semibold">Tracking Number:</h4>
+            <h3 className="font-bold text-lg lg:text-4xl">4204575092124903627191046</h3>
           </div>
-          <h2 className="font-bold text-2xl xl:text-3xl">Shipment Arrived</h2>
+          <div className="mb-8">
+            <h2 className="font-semibold text-2xl mb-3">Expected Delivery by</h2>
+            <div className="flex items-center gap-x-10">
+              <div className="border-r border-gray-400 pr-6">
+                <h3 className="font-bold">MONDAY</h3>
+                <div className="flex gap-x-3">
+                  <span className="block font-bold text-5xl">28</span>
+                  <div className="text-sm">
+                    <p className="font-semibold">August</p>
+                    <p className="font-semibold">2024</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p>by</p>
+                <strong>9.00pm</strong>
+              </div>
+            </div>
+          </div>
+          <p className="font-medium">
+            Your Item arrived at our METRO NY DISTRIBUTION CENTER origin facility on August 23 2024 at 7:38am. The item
+            is currently in transit to the destination
+          </p>
         </div>
-        <p className="text-green-700 text-lg xl:text-xl font-medium">Monday July 01, 2024 at 3:15pm at UPS Facility</p>
       </div>
     </section>
   );
