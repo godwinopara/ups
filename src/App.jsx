@@ -1,4 +1,4 @@
-import ShippingDetails from "./ShippingDetails";
+// import ShippingDetails from "./ShippingDetails";
 import Status from "./Status";
 import UserInfo from "./UserInfo";
 import logo from "./images/UPS_logo.svg";
