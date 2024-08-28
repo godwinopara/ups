@@ -144,18 +144,33 @@ export default function Status() {
       </div> */}
       <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
-          <div className="bg-yellow-500 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
-            <FcInTransit />
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
           </div>
-          <div className="flex flex-col items-center justify-center mt-2 text-yellow-500">
-            <IoEllipsisVerticalOutline />
+          <div className="flex flex-col items-center justify-center mt-2 text-green-700">
             <IoEllipsisVerticalOutline />
             <IoEllipsisVerticalOutline />
           </div>
         </div>
         <div>
-          <h1 className="font-bold">International Transit</h1>
-          <span className="text-gray-600 block">DEPARTED</span>
+          <h1 className="font-bold">Arrived</h1>
+          <span className="text-gray-600 block">SYDNEY, AUSTRALIA</span>
+          <span className="text-gray-600 block">August 27, 2024 8:30pm</span>
+        </div>
+      </div>
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
+          </div>
+          <div className="flex flex-col items-center justify-center mt-2 text-green-700">
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold">Departed</h1>
+          <span className="text-gray-600 block">NY UNITED STATES</span>
           <span className="text-gray-600 block">August 24, 2024 8:30pm</span>
         </div>
       </div>
