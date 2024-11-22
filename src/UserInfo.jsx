@@ -36,11 +36,11 @@ export default function UserInfo() {
           <div>
             <div className="mb-3">
               <h2 className="mb-1 font-semibold">Receiver's Name</h2>
-              <p>Helen Sim</p>
+              <p>Leeanne Lovell</p>
             </div>
             <div className="mb-3">
               <h2 className="mb-1 font-semibold">Receiver's Address</h2>
-              <p>2/9-13 Vermont St Sutherland, NSW 2232</p>
+              <p>8 Vancouver Street, Midwaypoint Tasmania 7171</p>
             </div>
             <div className="lg:flex lg:justify-between items-center">
               <div className="mb-3">
@@ -50,17 +50,17 @@ export default function UserInfo() {
 
               <div className="mb-3">
                 <h2 className="mb-1 font-semibold">Phone Number</h2>
-                <p>+610451515115</p>
+                <p>+61 439 949 127</p>
               </div>
             </div>
             <div className="lg:flex lg:justify-between items-center">
               <div className="mb-3">
                 <h2 className="mb-1 font-semibold">Email </h2>
-                <p>helensim39@gmail.com</p>
+                <p>None</p>
               </div>
               <div className="mb-3">
                 <h2 className="mb-1 font-semibold">Postal Code </h2>
-                <p>2232</p>
+                <p>7171</p>
               </div>
             </div>
           </div>
@@ -71,17 +71,21 @@ export default function UserInfo() {
         <div>
           <div className="mb-5">
             <h4 className="font-semibold">Log Number:</h4>
-            <h3 className="font-bold text-lg lg:text-4xl">4204575092124903627191046</h3>
+            <h3 className="font-bold text-lg lg:text-4xl">
+              4204575092124903627191046
+            </h3>
           </div>
           <div className="mb-8">
-            <h2 className="font-semibold text-2xl mb-3">Expected Delivery by</h2>
+            <h2 className="font-semibold text-2xl mb-3">
+              Expected Delivery by
+            </h2>
             <div className="flex items-center gap-x-10">
               <div className="border-r border-gray-400 pr-6">
-                <h3 className="font-bold">WEDNESDAY</h3>
+                <h3 className="font-bold">THURSDAY</h3>
                 <div className="flex gap-x-3">
                   <span className="block font-bold text-5xl">28</span>
                   <div className="text-sm">
-                    <p className="font-semibold">August</p>
+                    <p className="font-semibold">November</p>
                     <p className="font-semibold">2024</p>
                   </div>
                 </div>
@@ -93,8 +97,9 @@ export default function UserInfo() {
             </div>
           </div>
           <p className="font-medium">
-            Your Item arrived at our METRO NY DISTRIBUTION CENTER origin facility on August 23 2024 at 7:38am. The item
-            is currently in transit to the destination
+            Your Item arrived at our HANSON DISTRIBUTION CENTER origin facility
+            on November 22 2024 at 7:38pm. The item is currently in transit to
+            the destination
           </p>
         </div>
       </div>

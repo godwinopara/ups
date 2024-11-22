@@ -98,10 +98,10 @@ export default function Status() {
           <span className="text-gray-600 block">Jakarta, Indonesia</span>
         </div>
       </div> */}
-      <div className="flex gap-x-5 mb-3">
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-gray-500 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
-            {/* <IoCheckmark /> */}
+            <IoCheckmark />
           </div>
           <div className="flex flex-col items-center justify-center mt-2 text-gray-500">
             <IoEllipsisVerticalOutline />
@@ -109,11 +109,11 @@ export default function Status() {
         </div>
         <div>
           <h1 className="font-bold text-gray-500">Delivered</h1>
-          {/* <span className="text-gray-900 block font-medium">Label Created</span>
+          <span className="text-gray-900 block font-medium">Label Created</span>
           <span className="text-gray-600 block">June 12, 2024, 2pm</span>
-          <span className="text-gray-600 block">Leeds United Kingdom</span> */}
+          <span className="text-gray-600 block">Leeds United Kingdom</span>
         </div>
-      </div>
+      </div> */}
       {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-gray-500 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
@@ -142,7 +142,7 @@ export default function Status() {
           <h1 className="font-bold text-gray-500">Preparing for Delivery</h1>
         </div>
       </div> */}
-      <div className="flex gap-x-5 mb-3">
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -157,8 +157,8 @@ export default function Status() {
           <span className="text-gray-600 block">SYDNEY, AUSTRALIA</span>
           <span className="text-gray-600 block">August 27, 2024 8:30pm</span>
         </div>
-      </div>
-      <div className="flex gap-x-5 mb-3">
+      </div> */}
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -173,8 +173,8 @@ export default function Status() {
           <span className="text-gray-600 block">NY UNITED STATES</span>
           <span className="text-gray-600 block">August 24, 2024 8:30pm</span>
         </div>
-      </div>
-      <div className="flex gap-x-5 mb-3">
+      </div> */}
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -186,12 +186,14 @@ export default function Status() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold">Arrived at International Outbound Facility</h1>
+          <h1 className="font-bold">
+            Arrived at International Outbound Facility
+          </h1>
           <span className="text-gray-600 block">NY UNITED STATES</span>
           <span className="text-gray-600 block">August 24, 2024 4:30pm</span>
         </div>
-      </div>
-      <div className="flex gap-x-5 mb-3">
+      </div> */}
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -203,12 +205,16 @@ export default function Status() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold">Processed Through USPS Regional Facility</h1>
-          <span className="text-gray-600 block">METRO NY DISTRIBUTION CENTER</span>
+          <h1 className="font-bold">
+            Processed Through USPS Regional Facility
+          </h1>
+          <span className="text-gray-600 block">
+            METRO NY DISTRIBUTION CENTER
+          </span>
           <span className="text-gray-600 block">August 24, 2024 2:35pm</span>
         </div>
-      </div>
-      <div className="flex gap-x-5 mb-3">
+      </div> */}
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -221,16 +227,18 @@ export default function Status() {
         </div>
         <div>
           <h1 className="font-bold">Departed USPS Regional Facility</h1>
-          <span className="text-gray-600 block">METRO NY DISTRIBUTION CENTER</span>
+          <span className="text-gray-600 block">
+            METRO NY DISTRIBUTION CENTER
+          </span>
           <span className="text-gray-600 block">August 24, 2024 8:15am</span>
         </div>
-      </div>
-      {/* <div className="flex gap-x-5 mb-3">
+      </div> */}
+      <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
-          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+          <div className="bg-yellow-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <FcInTransit />
           </div>
-          <div className="flex flex-col items-center justify-center mt-2 text-green-800">
+          <div className="flex flex-col items-center justify-center mt-2 text-yellow-800">
             <IoEllipsisVerticalOutline />
             <IoEllipsisVerticalOutline />
             <IoEllipsisVerticalOutline />
@@ -240,11 +248,36 @@ export default function Status() {
         </div>
         <div>
           <h1 className="font-bold">In Transit from Origin Processing</h1>
-          <h2 className="font-bold">Accepted at USPS Regional Origin Facility</h2>
-          <span className="text-gray-600 block">METRO NY DISTRIBUTION CENTER</span>
-          <span className="text-gray-600 block">August 23, 2024, 7:38am</span>
+          <h2 className="font-bold">
+            Accepted at USPS Regional Origin Facility
+          </h2>
+          <span className="text-gray-600 block">
+            HANSON DISTRIBUTION CENTER
+          </span>
+          <span className="text-gray-600 block">
+            November 22, 2024, 10:52pm
+          </span>
         </div>
-      </div> */}
+      </div>
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
+          </div>
+          <div className="flex flex-col items-center justify-center mt-2 text-green-800">
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold">Label Created and Order Processed</h1>
+          <span className="text-gray-600 block">
+            HANSON DISTRIBUTION CENTER
+          </span>
+          <span className="text-gray-600 block">November 22, 2024, 9:38pm</span>
+        </div>
+      </div>
       <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
@@ -252,9 +285,13 @@ export default function Status() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold">Accepted at USPS Regional Origin Facility</h1>
-          <span className="text-gray-600 block">METRO NY DISTRIBUTION CENTER</span>
-          <span className="text-gray-600 block">August 23, 2024, 6:38am</span>
+          <h1 className="font-bold">
+            Accepted at USPS Regional Origin Facility
+          </h1>
+          <span className="text-gray-600 block">
+            HANSON DISTRIBUTION CENTER
+          </span>
+          <span className="text-gray-600 block">November 22, 2024, 7:38pm</span>
         </div>
       </div>
     </section>
