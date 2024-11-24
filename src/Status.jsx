@@ -247,15 +247,15 @@ export default function Status() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold">In Transit from Origin Processing</h1>
+          <h1 className="font-bold">In Transit</h1>
           <h2 className="font-bold">
-            Accepted at USPS Regional Origin Facility
+              International Outbound Facility
           </h2>
           <span className="text-gray-600 block">
-            HANSON DISTRIBUTION CENTER
+            LONDON
           </span>
           <span className="text-gray-600 block">
-            November 22, 2024, 10:52pm
+            November 25, 2024, 10:52am
           </span>
         </div>
       </div>
@@ -271,9 +271,9 @@ export default function Status() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold">Label Created and Order Processed</h1>
+          <h1 className="font-bold">Accepted at USPS, Label Created and Order Processed</h1>
           <span className="text-gray-600 block">
-            HANSON DISTRIBUTION CENTER
+            HANSON DISTRIBUTION CENTER, LONDON
           </span>
           <span className="text-gray-600 block">November 22, 2024, 9:38pm</span>
         </div>
@@ -289,7 +289,7 @@ export default function Status() {
             Accepted at USPS Regional Origin Facility
           </h1>
           <span className="text-gray-600 block">
-            HANSON DISTRIBUTION CENTER
+            HANSON DISTRIBUTION CENTER, LONDON
           </span>
           <span className="text-gray-600 block">November 22, 2024, 7:38pm</span>
         </div>
