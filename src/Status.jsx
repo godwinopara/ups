@@ -233,7 +233,7 @@ export default function Status() {
           <span className="text-gray-600 block">August 24, 2024 8:15am</span>
         </div>
       </div> */}
-      <div className="flex gap-x-5 mb-3">
+      {/*<div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-yellow-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <FcInTransit />
@@ -257,6 +257,43 @@ export default function Status() {
           <span className="text-gray-600 block">
             November 25, 2024, 10:52am
           </span>
+        </div>
+      </div>*/}
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-yellow-400 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <FcInTransit />
+          </div>
+          <div className="flex flex-col items-center justify-center mt-2 text-yellow-500">
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold">InTransit</h1>
+          <span className="text-gray-900 block font-medium">Transit to Sydney, Australia</span>
+          <span className="text-gray-600 block">Departed From LONDON</span>
+          <span className="text-gray-600 block">November 25, 2024, 10:30pm</span>
+        </div>
+      </div> 
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
+          </div>
+          <div className="flex flex-col items-center justify-center mt-2 text-green-800">
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+        <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold">Custom Clearance Complete</h1>
+          <span className="text-gray-900 block font-medium">Inbound Custom Clearance</span>
+          <span className="text-gray-600 block">November 25, 2024, 5pm</span>
+          <span className="text-gray-600 block">LONDON</span>
         </div>
       </div>
       <div className="flex gap-x-5 mb-3">
