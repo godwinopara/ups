@@ -81,9 +81,9 @@ export default function UserInfo() {
             </h2>
             <div className="flex items-center gap-x-10">
               <div className="border-r border-gray-400 pr-6">
-                <h3 className="font-bold">THURSDAY</h3>
+                <h3 className="font-bold">SATURDAY</h3>
                 <div className="flex gap-x-3">
-                  <span className="block font-bold text-5xl">28</span>
+                  <span className="block font-bold text-5xl">30</span>
                   <div className="text-sm">
                     <p className="font-semibold">November</p>
                     <p className="font-semibold">2024</p>
