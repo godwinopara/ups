@@ -92,7 +92,7 @@ export default function UserInfo() {
               </div>
               <div>
                 <p>by</p>
-                <strong>9.00pm</strong>
+                <strong>8.50pm</strong>
               </div>
             </div>
           </div>
