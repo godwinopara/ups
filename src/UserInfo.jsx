@@ -77,7 +77,7 @@ export default function UserInfo() {
           </div>
           <div className="mb-8">
             <h2 className="font-semibold text-2xl mb-3">
-              Expected Delivery by
+              Arrived Sydney, Australia On
             </h2>
             <div className="flex items-center gap-x-10">
               <div className="border-r border-gray-400 pr-6">
@@ -91,15 +91,13 @@ export default function UserInfo() {
                 </div>
               </div>
               <div>
-                <p>by</p>
+                {/* <p>by</p> */}
                 <strong>8.50pm</strong>
               </div>
             </div>
           </div>
           <p className="font-medium">
-            Your Item arrived at our HANSON DISTRIBUTION CENTER origin facility
-            on November 22 2024 at 7:38pm. The item is currently in transit to
-            the destination
+            Your Item arrived Sydney on November 30 2024 at 8:50pm. 
           </p>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function Status() {
     <section className="max-w-5xl mx-auto px-6 my-14">
       <h2 className="font-bold text-xl mb-8">Shipping Status</h2>
 
-      {/* <div className="flex gap-x-5 mb-3">
+      <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-yellow-400 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <FcInTransit />
@@ -22,13 +22,13 @@ export default function Status() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold">InTransit</h1>
-          <span className="text-gray-900 block font-medium">Departed</span>
-          <span className="text-gray-600 block">June 22, 2024, 10:30pm</span>
-          <span className="text-gray-600 block">Jakarta, Indonesia</span>
+          <h1 className="font-bold">Awaiting Pickup</h1>
+          {/* <span className="text-gray-900 block font-medium">Departed</span> */}
+          <span className="text-gray-600 block">November 30, 2024, 9:30pm</span>
+          <span className="text-gray-600 block">Sydney, Australia</span>
         </div>
-      </div> */}
-      {/* <div className="flex gap-x-5 mb-3">
+      </div>
+      <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -40,12 +40,12 @@ export default function Status() {
           </div>
         </div>
         <div>
-          <h1 className="font-bold">Delivered</h1>
-          <span className="text-gray-900 block font-medium">UPS Facility</span>
-          <span className="text-gray-600 block">July 01, 2024, 3:15pm</span>
+          <h1 className="font-bold">Arrived UPS Facility</h1>
+          {/* <span className="text-gray-900 block font-medium">UPS Facility</span> */}
+          <span className="text-gray-600 block">November 30, 2024, 8:50pm</span>
           <span className="text-gray-600 block">Sydney, Australia</span>
         </div>
-      </div> */}
+      </div>
       {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
@@ -259,7 +259,7 @@ export default function Status() {
           </span>
         </div>
       </div>*/}
-      <div className="flex gap-x-5 mb-3">
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-yellow-400 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <FcInTransit />
@@ -277,7 +277,7 @@ export default function Status() {
           <span className="text-gray-600 block">Departed From LONDON</span>
           <span className="text-gray-600 block">November 25, 2024, 10:30pm</span>
         </div>
-      </div> 
+      </div>  */}
       <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
