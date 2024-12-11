@@ -1,4 +1,4 @@
-import { FcInTransit } from "react-icons/fc";
+// import { FcInTransit } from "react-icons/fc";
 import { IoCheckmark } from "react-icons/io5";
 // import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 // import { FcInTransit } from "react-icons/fc";
@@ -9,7 +9,7 @@ export default function Status() {
     <section className="max-w-5xl mx-auto px-6 my-14">
       <h2 className="font-bold text-xl mb-8">Shipping Status</h2>
 
-      <div className="flex gap-x-5 mb-3">
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-yellow-400 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <FcInTransit />
@@ -23,12 +23,11 @@ export default function Status() {
         </div>
         <div>
           <h1 className="font-bold">Awaiting Pickup</h1>
-          {/* <span className="text-gray-900 block font-medium">Departed</span> */}
           <span className="text-gray-600 block">November 30, 2024, 9:30pm</span>
           <span className="text-gray-600 block">Sydney, Australia</span>
         </div>
-      </div>
-      <div className="flex gap-x-5 mb-3">
+      </div> */}
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -41,11 +40,10 @@ export default function Status() {
         </div>
         <div>
           <h1 className="font-bold">Arrived UPS Facility</h1>
-          {/* <span className="text-gray-900 block font-medium">UPS Facility</span> */}
           <span className="text-gray-600 block">November 30, 2024, 8:50pm</span>
           <span className="text-gray-600 block">Sydney, Australia</span>
         </div>
-      </div>
+      </div> */}
       {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
@@ -278,7 +276,7 @@ export default function Status() {
           <span className="text-gray-600 block">November 25, 2024, 10:30pm</span>
         </div>
       </div>  */}
-      <div className="flex gap-x-5 mb-3">
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
@@ -295,40 +293,56 @@ export default function Status() {
           <span className="text-gray-600 block">November 25, 2024, 5pm</span>
           <span className="text-gray-600 block">LONDON</span>
         </div>
+      </div> */}
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative">
+          <div className="bg-gray-500 rounded-[100%] h-4 w-4 mb-2 text-white font-medium flex items-center justify-center">
+          </div>
+          <div className="flex flex-col items-center justify-center text-gray-500">
+            <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold text-gray-300 text-sm">Delivered</h1>
+        </div>
+      </div>
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative">
+          <div className="bg-gray-500 rounded-[100%] h-4 w-4 mb-2 text-white font-medium flex items-center justify-center">
+          </div>
+          <div className="flex flex-col items-center justify-center text-gray-500">
+            <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold text-gray-300 text-sm">Out for Delivery</h1>
+        </div>
+      </div>
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative">
+          <div className="bg-gray-500 rounded-[100%] h-4 w-4 mb-2 text-white font-medium flex items-center justify-center">
+          </div>
+          <div className="flex flex-col items-center justify-center text-gray-500">
+            <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold text-gray-300 text-sm">Preparing for Delivery</h1>
+        </div>
       </div>
       <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
             <IoCheckmark />
           </div>
-          <div className="flex flex-col items-center justify-center mt-2 text-green-800">
-            <IoEllipsisVerticalOutline />
-            <IoEllipsisVerticalOutline />
-            <IoEllipsisVerticalOutline />
-          </div>
         </div>
         <div>
-          <h1 className="font-bold">Accepted at USPS, Label Created and Order Processed</h1>
+        <h1 className="font-bold">Moving Through Network</h1>
+          <span className="text-gray-900 block font-medium">Arrived at UPS Regional Facility</span>
           <span className="text-gray-600 block">
-            HANSON DISTRIBUTION CENTER, LONDON
+            METRO NY DISTRIBUTION CENTER
           </span>
-          <span className="text-gray-600 block">November 22, 2024, 9:38pm</span>
-        </div>
-      </div>
-      <div className="flex gap-x-5 mb-3">
-        <div className="relative mb-1">
-          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
-            <IoCheckmark />
-          </div>
-        </div>
-        <div>
-          <h1 className="font-bold">
-            Accepted at USPS Regional Origin Facility
-          </h1>
-          <span className="text-gray-600 block">
-            HANSON DISTRIBUTION CENTER, LONDON
-          </span>
-          <span className="text-gray-600 block">November 22, 2024, 7:38pm</span>
+          <span className="text-gray-600 block">December 10, 2024, 12:09pm</span>
         </div>
       </div>
     </section>
