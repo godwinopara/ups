@@ -1,7 +1,7 @@
 // import { FcInTransit } from "react-icons/fc";
 import { IoCheckmark } from "react-icons/io5";
 // import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-// import { FcInTransit } from "react-icons/fc";
+import { FcInTransit } from "react-icons/fc";
 import { IoEllipsisVerticalOutline } from "react-icons/io5";
 
 export default function Status() {
@@ -257,25 +257,7 @@ export default function Status() {
           </span>
         </div>
       </div>*/}
-      {/* <div className="flex gap-x-5 mb-3">
-        <div className="relative mb-1">
-          <div className="bg-yellow-400 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
-            <FcInTransit />
-          </div>
-          <div className="flex flex-col items-center justify-center mt-2 text-yellow-500">
-            <IoEllipsisVerticalOutline />
-            <IoEllipsisVerticalOutline />
-            <IoEllipsisVerticalOutline />
-            <IoEllipsisVerticalOutline />
-          </div>
-        </div>
-        <div>
-          <h1 className="font-bold">InTransit</h1>
-          <span className="text-gray-900 block font-medium">Transit to Sydney, Australia</span>
-          <span className="text-gray-600 block">Departed From LONDON</span>
-          <span className="text-gray-600 block">November 25, 2024, 10:30pm</span>
-        </div>
-      </div>  */}
+     
       {/* <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
           <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
@@ -306,7 +288,7 @@ export default function Status() {
           <h1 className="font-bold text-gray-300 text-sm">Delivered</h1>
         </div>
       </div>
-      <div className="flex gap-x-5 mb-3">
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative">
           <div className="bg-gray-500 rounded-[100%] h-4 w-4 mb-2 text-white font-medium flex items-center justify-center">
           </div>
@@ -317,8 +299,8 @@ export default function Status() {
         <div>
           <h1 className="font-bold text-gray-300 text-sm">Out for Delivery</h1>
         </div>
-      </div>
-      <div className="flex gap-x-5 mb-3">
+      </div> */}
+      {/* <div className="flex gap-x-5 mb-3">
         <div className="relative">
           <div className="bg-gray-500 rounded-[100%] h-4 w-4 mb-2 text-white font-medium flex items-center justify-center">
           </div>
@@ -329,6 +311,53 @@ export default function Status() {
         <div>
           <h1 className="font-bold text-gray-300 text-sm">Preparing for Delivery</h1>
         </div>
+      </div> */}
+       <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-yellow-400 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <FcInTransit />
+          </div>
+          <div className="flex flex-col items-center justify-center mt-2 text-yellow-500">
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+            <IoEllipsisVerticalOutline />
+          </div>
+        </div>
+        <div>
+          <h1 className="font-bold">International Transit To Sydney</h1>
+          <span className="text-gray-900 block font-medium">Departed UPS Regional Facility</span>
+          <span className="text-gray-600 block">MORENO VALLEY CA DISTRIBUTION CENTER</span>
+          <span className="text-gray-600 block">December 14, 2024, 12:09pm</span>
+        </div>
+      </div> 
+      {/* <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
+          </div>
+        </div>
+        <div>
+        <h1 className="font-bold">Departed UPS Regional Facility</h1>
+          <span className="text-gray-600 block">
+            METRO NY DISTRIBUTION CENTER
+          </span>
+          <span className="text-gray-600 block">December 12, 2024, 12:09pm</span>
+        </div>
+      </div> */}
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
+          </div>
+        </div>
+        <div>
+        <h1 className="font-bold">Departed UPS Regional Facility</h1>
+          <span className="text-gray-600 block">
+            MORENO VALLEY CA DISTRIBUTION CENTER
+          </span>
+          <span className="text-gray-600 block">December 13, 2024, 4:16am</span>
+        </div>
       </div>
       <div className="flex gap-x-5 mb-3">
         <div className="relative mb-1">
@@ -337,8 +366,32 @@ export default function Status() {
           </div>
         </div>
         <div>
-        <h1 className="font-bold">Moving Through Network</h1>
-          <span className="text-gray-900 block font-medium">Arrived at UPS Regional Facility</span>
+        <h1 className="font-bold">Arrived at UPS Regional Destination Facility</h1>
+          <span className="text-gray-600 block">
+            MORENO VALLEY CA DISTRIBUTION CENTER
+          </span>
+          <span className="text-gray-600 block">December 12, 2024, 2:16am</span>
+        </div>
+      </div>
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
+          </div>
+        </div>
+        <div>
+        <h1 className="font-bold">In Transit to Next Facility</h1>
+          <span className="text-gray-600 block">December 11, 2024</span>
+        </div>
+      </div>
+      <div className="flex gap-x-5 mb-3">
+        <div className="relative mb-1">
+          <div className="bg-green-700 rounded-[100%] h-6 w-6 text-white font-medium flex items-center justify-center">
+            <IoCheckmark />
+          </div>
+        </div>
+        <div>
+        <h1 className="font-bold">Arrived at UPS Regional Facility</h1>
           <span className="text-gray-600 block">
             METRO NY DISTRIBUTION CENTER
           </span>

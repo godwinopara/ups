@@ -77,13 +77,13 @@ export default function UserInfo() {
           </div>
           <div className="mb-8">
             <h2 className="font-semibold  mb-3">
-              Arrived UPS FACILITY METRO NY DISTRIBUTION CENTER
+            Departed MORENO VALLEY CA DISTRIBUTION CENTER
             </h2>
             <div className="flex items-center gap-x-10">
               <div className="border-r border-gray-400 pr-6">
-                <h3 className="font-bold">TUESDAY</h3>
+                <h3 className="font-bold">SATURDAY</h3>
                 <div className="flex gap-x-3">
-                  <span className="block font-bold text-5xl">10</span>
+                  <span className="block font-bold text-5xl">14</span>
                   <div className="text-sm">
                     <p className="font-semibold">DECEMBER</p>
                     <p className="font-semibold">2024</p>
@@ -92,12 +92,12 @@ export default function UserInfo() {
               </div>
               <div>
                 <p>by</p>
-                <strong>12:12pm</strong>
+                <strong>12:09pm</strong>
               </div>
             </div>
           </div>
           <p className="font-medium">
-            Your Item arrived at our UPS facility in METRO NY DISTRIBUTION CENTER on December 10, 2024 at 12:12pm. The item is currently in transit to the destination.
+            Your Item Departed MORENO VALLEY CA DISTRIBUTION CENTER on SATURDAY December 14, 2024, 12:09pm. The item is currently in transit to the destination.
           </p>
         </div>
       </div>
